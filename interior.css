@@ -734,7 +734,7 @@
     width: 72px;
     height: 72px;
     margin-left: 30px;
-    background-image: url(/images/James.png);
+    background-image: url(images/James.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -929,7 +929,8 @@
 @media only screen and (max-width: 600px) {
     * {
         margin: 0;
-        padding: 0 2px;
+        padding-left: 1px;
+        padding-right: 1px;
         font-family: "Inter", sans-serif;
     }
     .interior {
@@ -1175,9 +1176,9 @@
     .parent-4 {
         /* border: 1px solid green; */
         width: 100%;
-        height: 230vh;
+        height: 200vh;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1224,7 +1225,7 @@
         border-radius: 4px;
         margin-left: -5px;
         margin-top: -700px;
-        margin-bottom: 250px;
+        margin-bottom: 230px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1270,7 +1271,7 @@
     .parent-5 {
         /* border: 1px solid blue; */
         width: 100%;
-        height: 100vh;
+        height: 70vh;
         margin: 0 auto;
         margin-top: 80px;
         display: flex;
@@ -1282,7 +1283,7 @@
         width: 100%;
         height: 30vh;
         text-align: center;
-        padding-top: 150px;
+        padding-top: 90px;
     }
     .subscribe h6 {
         font-size: 25px;
@@ -1351,9 +1352,9 @@
     .parent-6-content {
         /* border: 1px solid red; */
         width: 80%;
-        height: 65%;
+        height: 85%;
         margin: 0 auto;
-        margin-top: 90px;
+        padding-top: 90px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -1374,7 +1375,7 @@
     .p6-content1 {
         /* border: 1px solid green; */
         width: 200px;
-        height: 68%;
+        height: 85%;
     }
     .p6-content1-icon {
         /* border: 1px solid blue; */
