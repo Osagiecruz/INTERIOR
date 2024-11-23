@@ -1,7 +1,5 @@
 @media screen and (min-width: 1366px) {
-    .container {
-        width: 75%;
-    }
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
@@ -60,6 +58,9 @@
     /* margin: 20px auto; */
     /* align-items: center; */
     border-color: #1F1F1F;
+}
+.nav-icon img {
+    display: none;
 }
 .int-content {
     /* border: 1px solid gold; */
@@ -923,4 +924,483 @@
     flex-direction: column;
     justify-content: space-around;
     margin-bottom: 6%;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0 2px;
+        font-family: "Inter", sans-serif;
+    }
+    .interior {
+        /* border: 1.5px solid blue; */
+        width: 100%;
+        height: 210vh;
+        margin: 0 auto;
+    }
+    .int-nav {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+    .nav, .button-1 {
+        display: none;
+    }
+    .nav-icon img {
+        width: 50px;
+        height: 50px;
+        padding-right: 20px;
+        display: block;
+    }
+    .int-content {
+        /* border: 1px solid gold; */
+        width: 100%;
+        height: 175vh;
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .parent-text {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 25vh;
+    }
+    .parent-text h6 {
+        font-size: 33px;
+    }
+    .parent-text p {
+        font-size: 12px;
+    }
+    .image-1 {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 39vh;
+        margin-top: -80px;
+    }
+    .project {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .pro-1 {
+        margin: 0 auto;
+    }
+    .button-2 {
+        font-size: 16px;
+    }    
+    .pro-2 {
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .pro-2 h6 {
+        font-size: 30px;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .pro-2 p {
+        font-size: 12px; 
+        padding-left: 20px;
+    }
+    .image-2 {
+        /* border: 1px solid blue; */
+        width: 73%;
+        height: 35vh;
+        margin-left: 30px;
+        border-radius: 4px;
+        /* display: block; */
+        position: relative;
+    }
+    .box1 {
+        border: 1px solid black;
+        height: 16vh;
+        width: 35%;
+        margin-left: -29px;
+        margin-top: -25px;
+        display: block;
+        position: relative;
+    }
+    .box2 {
+        /* border: 1px solid black; */
+        height: 16vh;
+        width: 35%;
+        margin-top: 170px;
+        margin-right: -70px;
+        display: block;
+        position: relative;
+    }
+    .parent-2 {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 250vh;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .our-service {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-top: 60px; */
+    }
+    .service-text {
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 12vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .service-text img {
+        width: 70px;
+        height: 2px;
+    }
+    .service-text h6 {
+        font-size: 33px;
+        padding-right: 90px;
+    }
+    .service-3box {
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    .service-3box h6 {
+        font-size: 18px;
+    }
+    .service-3box p {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .our-service-2 {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        height: 150vh;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .service-2-img {
+        /* border: 1px solid purple; */
+        width: 100%;
+        height: 50vh;
+    }
+    .service-2-content {
+        /* border: 1px solid purple; */
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .s-2-c-1 {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 25vh;
+    }
+    .s-2-c-1 h6 {
+        font-size: 30px;
+    }
+    .s-2-c-1 p {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+    .s-2-c-2 {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 25vh;
+        margin-top: -50px;
+    }
+    .s-2-c-2 h6 {
+        font-size: 16px;
+    }
+    .s-2-c-3 {
+        /* border: 1px solid blue; */
+        margin: 0 auto;
+    }
+    .button-3 {
+        font-size: 16px;
+    }
+    .parent-3 {
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 200vh;
+        margin-top: 70px;
+        flex-direction: column;
+    }
+    .design-your-dream {
+        /* border: 1px solid brown; */
+        width: 100%;
+        height: 110vh;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .design-your-dream h6 {
+        font-size: 18px;
+    }
+    .design-your-dream p {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .dream-text h5 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #1F1F1F;
+    }
+    .dream-img {
+        /* border: 1px solid brown; */
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 170px;
+    }
+    .parent-4 {
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 230vh;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .customers-text {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 20vh;
+        margin-left: -5px;
+        display: block;
+       
+    }
+    .customers-text h6 {
+        font-size: 32px;
+    }
+    .living-room {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 50vh;
+        margin-top: -95%;
+        margin-bottom: 450px;
+        background-image: url(images/sitting-room.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+    .customers-img {
+        display: none;
+    }
+    .customers-icon {
+        /* border: 1px solid blue; */
+        width: 220px;
+        height: 73px;
+        border-radius: 4px;
+        margin-top: 105%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .customers-twin {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 80vh;
+        border-radius: 4px;
+        margin-left: -5px;
+        margin-top: -700px;
+        margin-bottom: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 70px;
+    }
+    .twin-1, .twin-2 {
+        /* border: 1px solid hotpink; */
+        width: 100%;
+        height: 70vh;
+        display: block;
+    }
+    .twin-1-text, .twin-2-text {
+        /* border: 1px solid purple; */
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .twin-1-text h6, .twin-2-text h6 {
+        font-size: 50px;
+    }
+    .twin-1-text p, .twin-2-text p {
+        font-size: 14px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+    }
+    .twin-1-img, .twin-2-img {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 15vh;
+    }
+    .tw-1-box2 h6, .tw-2-box2 h6 {
+        font-size: 16px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .tw-1-box2 p, .tw-2-box2 p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .parent-5 {
+        /* border: 1px solid blue; */
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .subscribe {
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 30vh;
+        text-align: center;
+        padding-top: 150px;
+    }
+    .subscribe h6 {
+        font-size: 25px;
+    }
+    .subscribe p {
+        font-size: 12px;
+    }
+    .email {
+        /* border: 1px solid green; */
+        width: 100%;
+        height: 15vh;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 16px 0px #00000026;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .email-box {
+        /* border: 1px solid red; */
+        width: 70%;
+        height: 12vh;
+        display: flex;
+    }
+    .email-box-icon {
+        /* border: 1px solid yellow; */
+        width: 12%;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .email-box-text {
+        /* border: 1px solid yellow; */
+        width: 50%;
+        height: 40px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+    .email-box-text p {
+        font-size: 12px;
+        font-weight: 500;
+        color: #8C8C8C;
+        margin-top: 10px;
+    }
+    .button-4 {
+        border-radius: 4px;
+        display: block;
+        background-color: #1F1F1F;
+        color: #fff;
+        width: 160px;
+        height: 60px;
+        font-weight: 600;
+        font-size: 16px;
+        border-color: #1F1F1F;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    .parent-6 {
+        /* border: 1px solid yellow; */
+        width: 100%;
+        height: 110vh;
+        margin: 0 auto;
+        background-color: #1F1F1F;
+        margin-top: 70px;
+    }
+    .parent-6-content {
+        /* border: 1px solid red; */
+        width: 80%;
+        height: 65%;
+        margin: 0 auto;
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .parent-6-content p {
+        font-size: 14px;
+    }
+    .parent-6-content a {
+        font-size: 14px; 
+    }
+    .parent-6-content h5 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    .p6-content1 {
+        /* border: 1px solid green; */
+        width: 200px;
+        height: 68%;
+    }
+    .p6-content1-icon {
+        /* border: 1px solid blue; */
+        width: 178px;
+        height: 50px;
+    }
+    .social-media {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 38px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .p6-content2 {
+        /* border: 1px solid green; */
+        width: 200px;
+        height: 80%;
+    }
+    .p6-content3 {
+        /* border: 1px solid green; */
+        width: 200px;
+        height: 80%;
+    }
+    .p6-content4 {
+        /* border: 1px solid green; */
+        width: 200px;
+        height: 60%;
+    }
 }
